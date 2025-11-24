@@ -1,0 +1,11 @@
+vis/*
+output/*
+video/*
+buffer/*
+__pycache__/
+*.py[cod]
+.vscode/*
+*.png
+*.pdf
+*.svg
+*.ipynb

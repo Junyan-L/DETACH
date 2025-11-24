@@ -1,0 +1,861 @@
+Annotations and descriptions for all 29 SDO images in the community dataset.
+
+Created by: K. Muglach (NASA/GSFC, CUA), M.A. Reiss (CCMC NASA/GCFC)
+
+Version 7  (date: May 30 2023)
+
+
+Abbreviations: NPCH northern polar coronal hole
+               SPCH southern polar coronal hole
+               SW south west, NE north east, etc.
+               CM central meridian 
+	       DC disk center
+
+---------------------------------------
+
+2014-07-15T22_00_06.84
+SPCH (CH1), 2 tiny low lat CHs (CH2,3), several filaments (especially in the SE close the SPCH, Fil3)
+
+         CH1  CH2  CH3   Fil1  Fil2  Fil3   Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1      0     0     0      0            3      0     0      3
+ACWE04:   1    1    1      0     0     1      0            3      0     1      2
+CATCH:    1    1    0      0     0     0      0            2      1     0      3
+CHARM:    1    1    1      0     0     0      0            3      0     0      3
+CHIMERA:  1    1    1      0     0     0      1            3      0     0      3
+CHIPS:    1    1    1      0     0     1      0            3      0     1      2
+CHMAP:    1    1    1      0     0     1      1            3      0     1      2
+CHORTLE:  1    1    1      1     1     1      1            3      0     3      0
+CHRONNOS: 1    1    0      0     0     0      0            2      1     0      3
+CNN193:   1    1    1      0     0     1      0            3      0     1      2
+SPOCA:    1    1    1      0     0     1      1            3      0     1      2
+SPOCA-HEK:1    1    1      0     0     1      1            3      0     1      2
+SYNCH:    1    1    1      0     1     1      1            3      0     2      1
+TH35:     1    1    1      0     0     1      0            3      0     1      2
+WWWBCS:   1    1    1      0     0     1      1            3      0     2      1
+
+DETACH:   1    1    1      0     0     0      0            3      0     0      3
+
+---------------------------------------
+
+2014-10-02T10_00_06.84Z
+SPCH (CH1), small NCH (CH2, not at poles, close to CM), area in the NW close to limb is another faint CH (CH3),
+very small CH near equator in west (CH4)
+lots of dark filaments (Fil1-4 and probably more)
+
+         CH1  CH2  CH3  CH4    Fil1  Fil2  Fil3  Fil4 fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   0    1    1    0      0     0      0    0     0         2       2     0      4
+ACWE04:   1    1    0    0      0     0      0    0     0         2       2     0      4
+CATCH:    1    1    0    0      0     0      0    0     0         2       2     0      4
+CHARM:    1    1    0    0      0     0      0    0     0         2       2     0      4
+CHIMERA:  1    1    1    0      0     0      0    0     0         3       1     0      4
+CHIPS:    1    1    1    1      1     1      1    0     1         4       0     3      1
+CHMAP:    1    1    1    1      1     0      1    0     1         4       0     2      2
+CHORTLE:  1    0    0    1      0     1      1    1     1         2       2     3      1
+CHRONNOS: 1    1    0    0      0     0      0    0     0         2       2     0      4
+CNN193:   1    1    0    0      1     1      0    0     1         2       2     2      2
+SPOCA:    1    1    1    0      0     0      0    0     0         3       1     0      4 
+SPOCA-HEK:1    1    1    1      1     1      0    0     0         4       0     2      2
+SYNCH:    1    1    1    1      1     1      1    0     1         4       0     3      1
+TH35:     1    1    0    0      1     1      0    0     0         2       2     2      2
+WWWBCS:   1    1    1    1      1     1      1    0     1         4       0     3      1 
+
+DETACH:   1    1    1    0      0     0      0    0     0         3       1     0      4
+
+4 CH 4 Fil
+
+---------------------------------------
+
+2015-01-04T06_00_06.84Z
+SPCH (CH1), NCH (CH2, at the NE limb), limb CH (east limb, more easily visible a couple of days later)
+some filaments, mostly not easy to recogize, Fil1 ok, SE dark area has some patchy filament
+fragments in H alpha
+
+              CH1  CH2  CH3   Fil1   Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    0     0       0          2     1      0     1
+ACWE04:        1    1    0     0       0          2     1      0     1
+CATCH:         1    1    0     0       0          2     1      0     1
+CHARM:         1    1    0     0       0          2     1      0     1
+CHIMERA:       1    1    0     0       0          2     1      0     1
+CHIPS:         1    1    0     1       1          2     1      1     0
+CHMAP:         1    1    1     0       1          3     0      0     1
+CHORTLE:       1    1    1     1       1          3     0      1     0
+CHRONNOS:      1    1    0     0       0          2     1      0     1
+CNN193:        1    1    0     0       0          2     1      0     1
+SPOCA          1    1    0     0       0          2     1      0     1
+SPOCA-HEK:     1    1    0     0       0          2     1      0     1
+SYNCH:         1    1    0     0       0          2     1      0     1
+TH35:          1    1    0     0       0          2     1      0     1
+WWWBCS:        1    1    1     0       1          3     0      0     1
+
+DETACH:        1    1    0     0       0          2     1      0     1
+
+
+---------------------------------------
+
+2015-01-21T00_00_08.61Z
+NPCH (CH1), SPCH (CH2), tiny CH in the NE quadrant (CH3), CH near SW limb (CH4, very narrow due to limb projecion)
+several filaments, Fil 1-3 (probably more small ones)
+
+             CH1  CH2  CH3  CH4   Fil1  Fil2  Fil3    Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:       1    1    0    0     0     0     0        0          2      2     0      3
+ACWE04:       1    1    0    0     1     0     0        0          2      2     1      2
+CATCH:        1    1    0    0     0     0     0        0          2      2     0      3
+CHARM:        1    1    0    0     1     0     0        0          2      2     1      2
+CHIMERA:      1    1    0    0     0     0     0        0          2      2     0      3
+CHIPS:        1    1    1    0     1     1     1        1          3      1     3      0
+CHMAP:        1    1    1    1     1     1     1        0          4      0     3      0
+CHORTLE:      1    1    1    0     1     1     1        1          3      1     3      0
+CHRONNOS:     1    1    0    0     0     0     0        0          2      2     0      3
+CNN193:       1    1    0    0     1     0     0        0          2      2     1      2
+SPOCA:        1    1    0    0     0     0     0        0          2      2     0      3
+SPOCA-HEK:    1    1    0    0     0     0     0        1          2      2     0      3
+SYNCH:        1    1    1    0     1     0     0        0          3      1     1      2
+TH35:         1    1    0    0     1     0     0        0          2      2     1      2
+WWWBCS:       1    1    1    0     0     0     0        1          3      1     0      3
+
+DETACH:       1    1    1    0     0     0     0        0          3      1     0      3
+
+---------------------------------------
+
+2015-02-10T12_00_06.84Z
+equatorial CH east of CM (CH1), lots of filaments (Fil 1-7, probably more), no PCHs visible
+
+
+             CH1    Fil1  Fil2  Fil3  Fil4  Fil5  Fil6   Fil7  Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:       1      0     0     0     0     0     0      0      0           1      0     0      7
+ACWE04:       1      1     1     0     1     0     0      1      0           1      0     4      3
+CATCH:        1      0     0     0     0     0     0      0      0           1      0     0      7
+CHARM:        1      0     0     0     0     0     0      1      0           1      0     1      6 
+CHIMERA:      1      0     0     0     0     0     0      0      0           1      0     0      7
+CHIPS:        1      1     1     1     0     1     1      1      0           1      0     6      1
+CHMAP:        1      1     1     1     1     1     1      1      1           1      0     7      0
+CHORTLE:      1      1     1     1     1     1     1      1      1           1      0     7      0
+CHRONNOS:     1      0     0     0     0     0     0      0      1           1      0     0      7
+CNN193:       1      0     1     0     0     0     0      1      0           1      0     2      5
+SPOCA:        1      0     0     0     0     0     0      0      1           1      0     0      7
+SPOCA-HEK:    1      0     1     1     1     1     0      1      1           1      0     5      2
+SYNCH:        1      1     1     1     1     1     1      1      1           1      0     7      0
+TH35:         1      0     1     0     0     0     0      1      0           1      0     2      5
+WWWBCS:       1      0     0     0     0     0     1      0      1           1      0     1      6
+
+DETACH:       1      0     0     0     0     0     0      0      1           1      0     0      7
+
+
+---------------------------------------
+
+2015-03-31T18_00_06.84Z
+SPCH (CH1), NCH (CH2, long and narrow all the way down to equator),
+large long filament parallel to NCH (Fil2, east of NCH), plus several other filaments (Fil1-4 and a few more)
+
+
+             CH1  CH2   Fil1  Fil2  Fil3  Fil4   Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:       1    1      0     0     0     0       0           2      0      0     4
+ACWE04:       1    1      0     1     0     0       1           2      0      1     3
+CATCH:        1    1      0     0     0     0       0           2      0      0     4
+CHARM:        1    1      0     1     0     0       0           2      0      1     3
+CHIMERA:      1    1      0     0     0     0       0           2      0      0     4
+CHIPS:        1    1      1     1     1     0       1           2      0      3     1
+CHMAP:        1    1      1     1     0     0       1           2      0      2     2
+CHORTLE:      1    1      1     1     1     0       1           2      0      3     1 
+CHRONNOS:     1    1      0     0     0     0       0           2      0      0     4
+CNN193:       1    1      0     1     0     0       0           2      0      1     3
+SPOCA:        1    1      0     0     0     0       0           2      0      0     4
+SPOCA-HEK:    1    1      0     1     0     0       1           2      0      1     3
+SYNCH:        1    1      1     1     1     0       1           2      0      3     1
+TH35:         1    1      0     1     0     0       0           2      0      1     3
+WWWBCS:       1    1      0     0     0     0       0           2      0      0     4
+
+DETACH:       1    1      0     0     0     0       0           2      0      0     4
+
+---------------------------------------
+
+2015-04-18T02_40_06.84Z
+SPCH (CH1), small DC CH (CH2), several filaments (Fil1-4)
+
+
+             CH1  CH2   Fil1  Fil2  Fil3  Fil4   Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:       1    1      0     0     0     0       0          2      0     0      4
+ACWE04:       1    1      1     1     0     0       1          2      0     2      2
+CATCH:        1    1      0     0     0     0       0          2      0     0      4
+CHARM:        1    1      1     0     0     0       0          2      0     1      3
+CHIMERA:      1    1      0     0     0     0       0          2      0     0      4
+CHIPS:        1    1      1     0     0     0       0          2      0     1      3
+CHMAP:        1    1      1     1     0     1       1          2      0     3      1
+CHORTLE:      1    1      1     1     0     1       1          2      0     3      1
+CHRONNOS:     1    1      0     0     0     0       0          2      0     0      4
+CNN193:       1    1      1     0     0     0       0          2      0     1      3
+SPOCA:        1    1      0     0     0     0       0          2      0     0      4
+SPOCA-HEK:    1    1      0     1     0     0       1          2      0     1      3
+SYNCH:        1    1      1     1     0     1       0          2      0     3      1
+TH35:         1    1      1     0     0     0       0          2      0     1      3
+WWWBCS:       1    1      1     1     0     1       1          2      0     3      1
+
+DETACH:       1    1      0     0     0     0       0          2      0     0      4
+
+
+---------------------------------------
+
+2015-06-06T19_00_06.84Z
+SPCH (CH1), low latitude southern CH (CH2), CH close to east limb (at equator, only properly visible as CH a few days later - at this time it looks like a filament, if algorithms do not iD, then should be ok)
+large filament parallel to SCH (Fil1, east of SCH), northern area looks like it could be a weak CH, but H alpha has a few filament fragments there (Fil2), a few additional fil (Fil3-4)
+
+
+             CH1  CH2  CH3   Fil1  Fil2  Fil3  Fil4   Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:       1    1    0      1     0     0     0       0         2      1     1      3
+ACWE04:       1    1    0      1     0     0     0       0         2      1     1      3
+CATCH:        1    1    0      0     0     0     0       0         2      1     0      4
+CHARM:        1    1    0      1     0     0     0       0         2      1     1      3
+CHIMERA:      1    1    0      0     0     0     0       0         2      1     0      4
+CHIPS:        1    1    0      1     0     0     0       0         2      1     1      3
+CHMAP:        1    1    0      1     0     0     0       1         2      1     1      3
+CHORTLE:      1    1    1      1     1     1     1       1         3      0     4      0
+CHRONNOS:     1    1    0      1     0     0     0       0         2      1     1      3
+CNN193:       1    1    0      1     0     0     0       0         2      1     1      3 
+SPOCA:        1    1    0      1     0     0     0       0         2      1     1      3
+SPOCA-HEK:    1    1    0      1     0     0     0       1         2      1     1      3
+SYNCH:        1    1    0      1     0     0     0       0         2      1     1      3
+TH35:         1    1    0      1     0     0     0       0         2      1     1      3
+WWWBCS:       1    1    1      1     1     0     0       1         3      0     2      2
+
+DETACH:       1    1    0      0     0     0     0       0         2      1     0      4
+
+---------------------------------------
+
+2015-08-11T15_00_05.84Z
+NCH (CH2 close to pole, a lot of the surrounding area is also CH as seen in 193 movie over +-1-2 days, but not easily visible, a lot of obscuration from QS in front), small low lat. CH close to DC (CH1), SPCH (CH3) not much visible, mostly obscurated by foreground emission.
+several filaments (Fil1-3, Fil3 is very long, 304 shows the full structure, crossing the solar equator, annotated at both ends).
+
+
+         CH1  CH2  CH3   Fil1  Fil2  Fil3   Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1      0     1     0      0            3      0     1      2
+ACWE04:   1    1    1      0     1     1      1            3      0     2      1
+CATCH:    1    1    0      0     0     0      0            2      1     0      3
+CHARM:    1    1    0      0     1     1      1            2      1     2      1
+CHIMERA:  1    1    0      0     0     0      1            2      1     0      3
+CHIPS:    1    1    0      0     1     1      1            2      1     2      1
+CHMAP:    1    1    1      0     1     0      1            3      0     1      2
+CHORTLE:  1    1    1      1     1     1      1            3      0     3      0
+CHRONNOS: 1    1    1      0     0     0      1            3      0     0      3
+CNN193:   1    1    0      0     1     1      1            2      1     2      1
+SPOCA:    1    1    0      0     1     0      1            2      1     1      2
+SPOCA-HEK:1    1    1      0     1     1      1            3      0     2      1
+SYNCH:    1    1    0      0     1     1      1            2      1     2      1
+TH35:     1    1    0      0     1     0      1            2      1     1      2
+WWWBCS:   1    1    0      1     1     1      0            2      1     3      0
+
+DETACH:   1    1    0      0     0     0      1            2      1     0      3
+
+
+---------------------------------------
+
+2015-08-18T00_00_05.84Z
+large NPCH (CH1), SPCH (CH3, at limb), small low lat CH in eastern hemisphere (CH2),
+several dark filaments (Fil1-4)
+
+Note: this image is also used in another CH study by KM and YK (CH1)
+
+
+
+         CH1  CH2  CH3  CH4   Fil1  Fil2  Fil3  Fil4  Fil/QS    CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1    1      0     0     0     0     0         4      0     0      4
+ACWE04:   1    1    1    1      0     0     0     0     1         4      0     0      4
+CATCH:    1    1    1    1      0     0     0     0     0         4      0     0      4
+CHARM:    1    1    1    1      0     0     0     0     0         4      0     0      4
+CHIMERA:  1    1    0    1      0     0     0     0     0         3      1     0      4
+CHIPS:    1    1    1    1      0     0     1     0     1         4      0     1      3
+CHMAP:    1    1    1    1      0     0     0     0     1         4      0     0      4
+CHORTLE:  1    1    1    1      1     1     1     0     1         4      0     3      1
+CHRONNOS: 1    1    1    0      0     0     0     0     0         3      1     0      4
+CNN193:   1    1    0    1      0     0     0     0     0         3      1     0      4
+SPOCA:    1    1    1    0      0     0     0     0     1         3      1     0      4
+SPOCA-HEK:1    1    1    1      0     0     0     0     1         4      0     0      4
+SYNCH:    1    1    1    1      0     0     0     0     0         4      0     0      4
+TH35:     1    1    1    1      0     0     0     0     0         4      0     0      4
+WWWBCS:   1    1    1    1      0     0     1     0     1         4      0     1      3
+
+DETACH:   1    1    1    1      0     0     0     0     0         4      0     0      4
+
+
+---------------------------------------
+
+2015-08-20T00_00_05.84Z
+large NPCH in NW (CH2), low lat CH close to DC (CH1), SPCH very close to limb)
+DC CH has small, long extention to the SE, might get picked up by detection algorithms or not....
+several filaments (Fil1 annotated, dark structures at east limb might be Fil - or CHs, not clear)
+
+Note: this image is also used in another CH study by KM and YK
+      and it is in paper 2
+
+         CH1  CH2  CH3   Fil1     Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1      0        0          3      0     0      1
+ACWE04:   1    1    1      0        1          3      0     0      1
+CATCH:    1    1    1      0        0          3      0     0      1
+CHARM:    1    1    0      0        0          2      1     0      1
+CHIMERA:  1    1    0      0        1          2      1     0      1
+CHIPS:    1    1    1      0        1          3      0     0      1
+CHMAP:    1    1    1      0        1          3      0     0      1
+CHORTLE:  1    1    1      1        1          3      0     1      0
+CHRONNOS: 1    1    1      0        1          3      0     0      1
+CNN193:   1    1    0      0        0          2      1     0      1
+SPOCA:    1    1    1      0        1          3      0     0      1
+SPOCA-HEK:1    1    1      0        1          3      0     0      1
+SYNCH:    1    1    0      0        1          2      1     0      1
+TH35:     1    1    0      0        0          2      1     0      1
+WWWBCS:   1    1    1      0        1          3      0     0      1
+
+DETACH:   1    1    1      0        0          3      0     0      1
+         
+
+---------------------------------------
+
+2015-09-23T09_00_05.84Z
+SPCH (CH1, narrow and long reaching to very low lat - could be mistaken as a filament), small DC CH (CH2),
+several filaments (Fil1-3, Fil1 very long, part is almost parallel to SPCH)
+
+
+              CH1  CH2    Fil1  Fil2  Fil3    Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1       1     1     0        0          2      0     2      1
+ACWE04:        1    1       1     1     1        1          2      0     3      0
+CATCH:         1    1       0     0     0        0          2      0     0      3
+CHARM:         1    1       0     1     1        0          2      0     2      1
+CHIMERA:       1    1       0     0     0        1          2      0     0      3
+CHIPS:         1    1       1     1     1        1          2      0     3      0
+CHMAP:         1    1       1     1     1        1          2      0     3      0
+CHORTLE:       1    1       1     1     1        1          2      0     3      0
+CHRONNOS:      1    1       1     0     0        1          2      0     1      2
+CNN193:        1    1       1     1     1        1          2      0     3      0
+SPOCA          1    1       0     0     0        0          2      0     0      3
+SPOCA-HEK:     1    1       1     1     0        0          2      0     2      1
+SYNCH:         1    1       1     1     1        1          2      0     3      0
+TH35:          1    1       1     1     0        1          2      0     2      1
+WWWBCS:        1    1       1     0     0        1          2      0     1      2
+
+DETACH:        1    1       0     0     0        0          2      0     0      3
+
+---------------------------------------
+
+2015-11-07T20_00_05.84Z
+very large NPCH (CH1), SPCH (CH2, mostly at the limb), tiny CH near eq. in east (CH3)
+
+         CH1  CH2  CH3    Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    0        0           2      1     0      0
+ACWE04:   1    1    1        1           3      0     0      0
+CATCH:    1    1    0        0           2      1     0      0
+CHARM:    1    0    1        0           2      1     0      0 
+CHIMERA:  1    0    1        1           2      1     0      0
+CHIPS:    1    1    1        1           3      0     0      0
+CHMAP:    1    1    1        1           3      0     0      0
+CHORTLE:  1    1    1        1           3      0     0      0
+CHRONNOS: 1    1    0        0           2      1     0      0
+CNN193:   1    0    1        0           2      1     0      0
+SPOCA:    -    -    -        -           -      -     -      -
+SPOCA-HEK:1    1    0        1           2      1     0      0
+SYNCH:    1    0    1        1           2      1     0      0
+TH35:     1    0    0        1           1      2     0      0
+WWWBCS:   1    1    1        1           3      0     0      0
+
+DETACH:   1    1    0        0           2      1     0      0
+
+---------------------------------------
+
+2016-01-14T00_00_05.84Z
+SPCH (CH1), no NCH, lots of ARs and filaments (Fil1-5 and probably more)
+
+              CH1    Fil1  Fil2  Fil3  Fil4  Fil5    Fil/QS    CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1       0     0     0     0     0        0        1     0       0      5
+ACWE04:        1       1     1     0     0     0        0        1     0       2      3
+CATCH:         1       0     0     0     0     0        0        1     0       0      5
+CHARM:         1       1     1     0     0     0        1        1     0       2      3
+CHIMERA:       0       0     0     0     0     0        0        0     1       0      5
+CHIPS:         1       1     1     1     0     0        1        1     0       3      2
+CHMAP:         1       1     1     0     0     0        1        1     0       2      3
+CHORTLE:       1       1     1     1     1     1        1        1     0       5      0
+CHRONNOS:      1       0     0     0     0     0        0        1     0       0      5
+CNN193:        1       1     1     0     0     0        0        1     0       2      3
+SPOCA          1       0     0     0     0     0        0        1     0       0      5
+SPOCA-HEK:     1       1     1     1     0     0        0        1     0       3      2
+SYNCH:         1       1     1     1     1     1        1        1     0       5      0
+TH35:          1       0     1     0     0     0        0        1     0       1      4
+WWWBCS:        1       1     0     0     0     0        1        1     0       1      4
+
+DETACH:        1       0     1     0     0     0        1        1     0       1      4
+
+---------------------------------------
+
+2016-03-05T02_00_05.84Z
+SPCH (CH1), 2 small low latitude CHs (one in eastern, CH3, one in western hemisphere, CH2),
+one clear filaments (Fil1, probably a few more)
+
+              CH1  CH2  CH3   Fil1   Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    1     0       0            3     0      0      1  
+ACWE04:        1    1    1     0       0            3     0      0      1
+CATCH:         1    1    1     0       0            3     0      0      1
+CHARM:         0    1    1     0       0            2     1      0      1
+CHIMERA:       1    1    1     0       0            3     0      0      1
+CHIPS:         1    1    1     0       1            3     0      0      1
+CHMAP:         1    1    1     0       1            3     0      0      1
+CHORTLE:       1    1    1     0       1            3     0      0      1
+CHRONNOS:      1    1    1     0       0            3     0      0      1
+CNN193:        1    1    1     0       0            3     0      0      1
+SPOCA          1    1    1     0       0            3     0      0      1
+SPOCA-HEK:     1    1    1     0       1            3     0      0      1
+SYNCH:         1    1    1     0       1            3     0      0      1
+TH35:          1    1    1     0       0            3     0      0      1
+WWWBCS:        1    1    1     0       1            3     0      0      1
+
+DETACH:        1    1    1     0       0            3     0      0      1
+
+---------------------------------------
+
+2016-03-18T19_00_05.84Z
+NCH (CH1, not polar), SPCH (CH2), several filaments (Fil1-4)
+
+              CH1  CH2    Fil1  Fil2  Fil3  Fil4   Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1       0     0     0     0       1          2      0     0      4
+ACWE04:        1    1       0     0     0     0       1          2      0     0      4 
+CATCH:         1    1       0     0     0     0       0          2      0     0      4
+CHARM:         1    1       0     0     0     0       0          2      0     0      4
+CHIMERA:       1    1       0     0     0     0       0          2      0     0      4
+CHIPS:         1    1       1     1     0     1       0          2      0     3      1
+CHMAP:         1    1       0     0     0     0       1          2      0     0      4
+CHORTLE:       1    1       1     1     0     1       1          2      0     3      1
+CHRONNOS:      1    1       0     0     0     0       1          2      0     0      4
+CNN193:        1    1       0     0     0     0       0          2      0     0      4
+SPOCA          1    1       0     0     0     0       0          2      0     0      4
+SPOCA-HEK:     1    1       0     0     0     0       1          2      0     0      4
+SYNCH:         1    1       1     1     1     1       1          2      0     4      0
+TH35:          1    1       0     0     0     0       0          2      0     0      4
+WWWBCS:        1    1       0     0     0     0       1          2      0     0      4
+
+DETACH:        1    1       0     0     0     0       0          2      0     0      4
+
+---------------------------------------
+
+2016-03-26T09_00_05.84Z
+large NPCH with very long low latitude extension (CH1), SPCH (CH2), very small CH near east limb at equator,
+several filaments (Fil1-3, plus a few more)
+
+
+         CH1  CH2  CH3   Fil1  Fil2  Fil3   Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    0      1     0     0      0            2      1     1      2
+ACWE04:   1    1    0      0     0     0      0            2      1     0      3
+CATCH:    1    1    0      0     0     0      0            2      1     0      3
+CHARM:    1    1    1      1     1     1      0            3      0     3      0
+CHIMERA:  1    1    1      0     0     0      0            3      0     0      3
+CHIPS:    1    1    1      1     1     1      1            3      0     3      0
+CHMAP:    1    1    1      1     1     1      1            3      0     3      0
+CHORTLE:  1    1    1      1     1     1      1            3      0     3      0
+CHRONNOS: 1    1    0      1     0     0      1            2      1     1      2
+CNN193:   1    1    1      1     0     1      0            3      0     2      1
+SPOCA:    1    1    0      0     0     0      0            2      1     0      3
+SPOCA-HEK:1    1    0      0     0     0      0            2      1     0      3
+SYNCH:    1    1    0      1     0     1      0            2      1     2      1
+TH35:     1    1    0      1     0     1      0            2      1     2      1
+WWWBCS:   1    1    1      1     1     1      1            3      0     3      0
+
+DETACH:   1    1    1      0     0     0      0            3      0     0      3
+
+---------------------------------------
+
+2016-09-02T14_00_05.84Z
+large NPCH (CH1), complex large low latitude CH (CH2), SPCH at limb (CH3 barely visible), SE limb another very small CH (can be better seen a few days later)
+several filaments (Fil1 is most dominant, parallel to west border of CH1, other small fragments in H alpha or faint)
+
+         CH1  CH2  CH3  CH4    Fil1   Fil/QS        CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   0    0    0    0       0       0            0      4     0      1
+ACWE04:   1    0    0    0       0       0            1      3     0      1
+CATCH:    1    1    0    1       0       0            3      1     0      1
+CHARM:    1    1    0    0       1       0            2      2     1      0
+CHIMERA:  1    1    0    0       0       0            2      2     0      1
+CHIPS:    1    1    0    0       1       1            2      2     1      0
+CHMAP:    1    1    1    1       1       0            4      0     1      0
+CHORTLE:  1    1    0    0       1       1            2      2     1      0
+CHRONNOS: 1    1    1    0       0       0            3      1     0      1
+CNN193:   1    1    0    0       1       0            2      2     1      0
+SPOCA:    -    -    -    -       -       -            -      -     -      -
+SPOCA-HEK:1    1    1    1       0       0            4      0     0      1
+SYNCH:    1    1    0    0       1       0            2      2     1      0
+TH35:     1    1    0    0       0       0            2      2     0      1
+WWWBCS:   1    1    1    1       1       1            4      0     1      0
+
+DETACH:   1    1    0    0       0       0            2      2     0      1
+
+---------------------------------------
+
+2016-12-19T17_00_05.84Z
+large NPCH (CH1), complex large low latitude CH (CH2), SPCH at limb (CH3 barely visible), 
+2 filaments (Fil1-2)
+
+
+         CH1  CH2  CH3     Fil1  Fil2   Fil/QS        CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1        0     0       0            3      0     0      2
+ACWE04:   1    1    1        0     0       0            3      0     0      2
+CATCH:    1    1    1        0     0       0            3      0     0      2
+CHARM:    1    1    0        0     0       0            2      1     0      2
+CHIMERA:  1    1    0        0     0       0            2      1     0      2
+CHIPS:    1    1    0        0     0       0            2      1     0      2
+CHMAP:    1    1    1        0     0       0            3      0     0      2
+CHORTLE:  1    1    1        1     1       1            3      0     2      0
+CHRONNOS: 1    1    1        0     0       0            3      0     0      2
+CNN193:   1    1    0        0     1       0            2      1     1      1
+SPOCA:    1    1    1        0     0       0            3      0     0      2
+SPOCA-HEK:1    1    1        0     0       0            3      0     0      2
+SYNCH:    1    1    1        0     1       0            3      0     1      1
+TH35:     1    1    0        0     0       0            2      1     0      2
+WWWBCS:   1    1    1        0     0       1            3      0     0      2
+
+DETACH:   1    1    0        0     0       0            2      1     0      2
+
+
+---------------------------------------
+
+2016-12-28T11_00_05.84Z
+NPCH (CH1), SPCH (CH2), east limb low latitude CH (CH3), equatorial CH close at DC (CH4)
+several filaments (Fil1-4)
+
+
+         CH1  CH2  CH3  CH4   Fil1  Fil2  Fil3  Fil4  Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1    1      0     0     0     0     0            4      0     0      4
+ACWE04:   1    1    1    1      0     1     0     1     0            4      0     2      2
+CATCH:    1    1    1    1      0     0     0     0     0            4      0     0      4
+CHARM:    1    1    1    1      0     0     0     0     0            4      0     0      4
+CHIMERA:  1    1    0    1      0     0     0     0     0            3      1     0      4
+CHIPS:    1    1    1    1      0     1     0     1     0            4      0     2      2
+CHMAP:    1    1    1    1      0     1     0     0     1            4      0     1      3
+CHORTLE:  1    1    1    1      1     1     1     0     1            4      0     3      1
+CHRONNOS: 1    1    1    1      0     0     0     0     0            4      0     4      0
+CNN193:   1    1    1    1      0     1     0     1     0            4      0     2      2
+SPOCA:    1    1    1    1      0     0     0     0     0            4      0     0      4
+SPOCA-HEK:1    1    1    1      0     0     0     0     0            4      0     0      4
+SYNCH:    1    1    1    1      1     1     0     1     0            4      0     3      1
+TH35:     1    1    0    1      0     0     0     0     0            3      1     0      4
+WWWBCS:   1    1    1    1      1     1     0     1     1            4      0     3      1
+
+DETACH:   1    1    1    1      0     0     0     0     0            4      0     0      4
+
+---------------------------------------
+
+2017-01-03T02_00_04.84Z
+very large SPCH with low latitude extension all the way to northern hemispere (CH1), NPCH (CH2), Small CH near equator in west (CH3) - probably extension of CH1, east limb CH (CH4) very faint, will become better visible a few days later.
+a few filaments (Fil1-2, very faint in AIA, not much visible in H alpha)
+
+
+         CH1  CH2  CH3  CH4    Fil1  Fil2  Fil/QS       CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1    0       0     0      0           3      1     0      2
+ACWE04:   1    1    1    0       0     0      0           3      1     0      2
+CATCH:    1    1    1    0       0     0      0           3      1     0      2
+CHARM:    1    0    1    0       0     0      0           2      2     0      2
+CHIMERA:  1    0    1    0       0     0      0           2      2     0      2
+CHIPS:    1    0    1    0       0     0      0           2      2     0      2
+CHMAP:    1    1    1    1       1     1      1           4      0     2      0
+CHORTLE:  1    1    1    0       1     1      1           3      1     2      0
+CHRONNOS: 1    1    1    0       0     0      0           3      1     2      0
+CNN193:   1    1    1    0       0     0      0           3      1     0      2
+SPOCA:    1    1    0    0       0     0      0           2      2     0      2
+SPOCA-HEK:1    1    0    0       0     0      0           2      2     0      2
+SYNCH:    1    1    1    0       0     0      0           3      1     0      2
+TH35:     1    1    0    0       0     0      0           2      2     0      2
+WWWBCS:   1    1    1    1       1     0      1           4      0     1      1
+
+DETACH:   1    1    1    0       0     0      0           3      1     0      2
+
+---------------------------------------
+
+2017-09-25T02_00_04.84Z
+NPCH with low lat extension (CH1, extension all the way to the equator), SPCH (CH2), small faint CH near equator close to west limb (CH3, better visible a few days earrlier)
+hardly any filaments (Fil1,2 in AR)
+ 
+         CH1  CH2  CH3     Fil1  Fil2   Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    0        0     0       0         2      1     0      2
+ACWE04:   1    1    0        0     0       0         2      1     0      2
+CATCH:    1    1    0        0     0       0         2      1     0      2
+CHARM:    1    1    0        0     0       0         2      1     0      2
+CHIMERA:  1    0    0        0     0       0         1      2     0      2
+CHIPS:    1    1    0        0     0       1         2      1     0      2
+CHMAP:    1    1    1        0     0       1         3      0     0      2
+CHORTLE:  1    1    0        0     0       1         2      1     0      2
+CHRONNOS: 1    1    0        0     0       0         2      1     0      2
+CNN193:   1    1    0        0     0       1         2      1     0      2
+SPOCA:    1    1    0        0     0       0         2      1     0      2
+SPOCA-HEK:1    1    0        0     0       0         2      1     0      2
+SYNCH:    1    1    0        0     0       1         2      1     0      2
+TH35:     1    1    0        0     0       0         2      1     0      2
+WWWBCS:   1    1    1        0     0       1         3      0     0      2
+
+DETACH:   1    1    0        0     0       0         2      1     0      2
+
+---------------------------------------
+
+2017-10-04T06_00_04.84Z
+NPCH (CH3), SPCH (CH4), 2 smaller low latitude CHs (one at NE limb, CH2, one in SW, CH1),
+a few filaments (Fil1-3, dark area close to disk center not clear if fil or CH or qs, H alpha does not show a fil)
+
+         CH1  CH2  CH3  CH4    Fil1  Fil2  Fil3    Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1    1       0     0     0        0          4      0     0      3
+ACWE04:   1    1    1    1       0     1     1        1          4      0     2      1
+CATCH:    1    1    1    1       0     0     0        0          4      0     0      3
+CHARM:    1    1    1    1       0     0     0        1          4      0     0      3
+CHIMERA:  1    1    1    1       0     0     0        1          4      0     0      3
+CHIPS:    1    0    1    0       0     0     0        0          2      2     0      3
+CHMAP:    1    1    1    1       0     1     1        1          4      0     2      1
+CHORTLE:  1    1    1    1       0     1     1        1          4      0     2      1
+CHRONNOS: 1    1    1    1       0     0     0        1          4      0     0      3
+CNN193:   1    1    1    1       0     1     0        1          4      0     1      2
+SPOCA:    1    1    1    1       0     0     0        0          4      0     0      3
+SPOCA-HEK:1    1    1    1       0     0     0        0          4      0     0      3
+SYNCH:    1    1    1    1       1     1     1        1          4      0     3      0
+TH35:     1    1    1    1       0     0     0        0          4      0     0      3
+WWWBCS:   1    1    1    1       0     1     0        1          4      0     1      2  
+
+DETACH:   1    1    1    1       0     0     0        0          4      0     0      3
+
+---------------------------------------
+
+2018-03-13T07_00_04.84Z
+NPCH (CH2), SPCH (CH3), nice long low latitude CH in northern hemisphere (CH1)
+hardly any fil (Fil1) - H alpha mostly empty disk
+
+              CH1  CH2  CH3   Fil1   Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    1     0       0          3      0     0      1
+ACWE04:        1    1    1     0       0          3      0     0      1
+CATCH:         1    1    1     0       0          3      0     0      1
+CHARM:         1    1    1     0       0          3      0     0      1
+CHIMERA:       1    1    1     0       1          3      0     0      1
+CHIPS:         1    1    1     0       0          3      0     0      1
+CHMAP:         1    1    1     0       0          3      0     0      1
+CHORTLE:       1    1    1     1       1          3      0     1      0
+CHRONNOS:      1    1    1     0       0          3      0     0      1
+CNN193:        1    1    1     1       1          3      0     1      0
+SPOCA          1    1    1     0       0          3      0     0      1
+SPOCA-HEK:     1    1    1     0       0          3      0     0      1
+SYNCH:         1    1    1     0       0          3      0     0      1
+TH35:          1    1    1     0       0          3      0     0      1
+WWWBCS:        1    1    1     0       1          3      0     0      1
+
+DETACH:        1    1    1     0       0          3      0     0      1
+
+---------------------------------------
+
+2018-05-30T12_00_04.84Z
+NPCH (CH2), SPCH (CH3), equatorial CH at DC (CH1)
+no filaments
+
+CH1 has been studied in paper 1 (Reiss, Muglach, et al. 2021, ApJ 913, id 28)
+
+             CH1  CH2  CH3    Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    1      0          3      0     -      -
+ACWE04:        1    1    1      1          3      0     -      -
+CATCH:         1    1    1      0          3      0     -      -
+CHARM:         1    1    1      0          3      0     -      -
+CHIMERA:       1    1    1      1          3      0     -      -
+CHIPS:         1    1    1      1          3      0     -      -
+CHMAP:         1    1    1      1          3      0     -      -
+CHORTLE:       1    1    1      1          3      0     -      -
+CHRONNOS:      1    1    1      1          3      0     -      -
+CNN193:        1    1    1      1          3      0     -      -
+SPOCA          1    1    1      0          3      0     -      -
+SPOCA-HEK:     1    1    1      0          3      0     -      -
+SYNCH:         1    1    1      1          3      0     -      -
+TH35:          1    1    1      0          3      0     -      -
+WWWBCS:        1    1    1      1          3      0     -      -
+
+DETACH:        1    1    1      0          3      0     -      -
+
+
+---------------------------------------
+
+2018-06-09T12_00_04.84Z
+NPCH (CH2), SPCH (CH3), equatorial CH (CH1), very long and thin, looks very much like filament!
+one polar crown filament in the south (Fil1, maybe a few more faint ones, H alpha mostly empty disk)
+
+             CH1  CH2  CH3   Fil1   Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    1     0       0          3      0     0      1
+ACWE04:        1    1    1     0       1          3      0     0      1
+CATCH:         1    1    1     0       0          3      0     0      1
+CHARM:         1    1    0     0       0          2      1     0      1
+CHIMERA:       1    1    0     0       1          2      1     0      1
+CHIPS:         1    1    1     1       1          3      0     1      0
+CHMAP:         1    1    1     1       1          3      0     1      0
+CHORTLE:       1    1    1     1       1          3      0     1      0
+CHRONNOS:      1    1    1     0       1          3      0     0      1
+CNN193:        1    1    0     1       1          2      1     1      0
+SPOCA          1    1    1     0       0          3      0     0      1
+SPOCA-HEK:     1    1    1     0       0          3      0     0      1
+SYNCH:         1    1    1     0       1          3      0     0      1
+TH35:          1    1    0     0       0          2      1     0      1
+WWWBCS:        1    1    1     1       1          3      0     1      0
+
+DETACH:        1    0    1     0       0          2      1     0      1
+
+---------------------------------------
+
+2018-06-23T13_00_04.84Z
+NPCH (CH1), SPCH (CH2), equatorial CH in eastern hemisphere (CH3)
+AR filament (Fil1)
+
+CH3 is one of the CHs analysed in detail in paper 2 (Reiss, Muglach, et al, in preparation)
+
+
+         CH1  CH2  CH3   Fil1     Fil/QS      CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:   1    1    1      0        1           3      0     0      1
+ACWE04:   1    1    1      0        1           3      0     0      1 
+CATCH:    1    1    1      0        1           3      0     0      1
+CHARM:    1    1    1      0        1           3      0     0      1
+CHIMERA:  1    1    1      0        0           3      0     0      1
+CHIPS:    1    1    1      0        1           3      0     0      1
+CHMAP:    1    1    1      0        1           3      0     0      1
+CHORTLE:  1    1    1      0        1           3      0     0      1
+CHRONNOS: 1    1    1      0        1           3      0     0      1
+CNN193:   1    1    1      0        1           3      0     0      1
+SPOCA:    1    1    1      0        1           3      0     0      1
+SPOCA-HEK:1    1    0      0        1           2      1     0      1
+SYNCH:    1    1    1      0        1           3      0     0      1
+TH35:     1    1    1      0        1           3      0     0      1
+WWWBCS:   1    1    1      0        1           3      0     0      1
+
+DETACH:   1    1    1      0        1           3      0     0      1
+
+
+---------------------------------------
+
+2019-05-04T11_00_04.85Z
+small NPCH (CH1), SPCH (CH2), faint CH signature close to DC (CH3)
+(check solar wind data for in situ signatures of CH3)
+
+              CH1  CH2  CH3  Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    1     0          3      0     0      0
+ACWE04:        1    1    1     0          3      0     0      0
+CATCH:         1    1    1     0          3      0     0      0
+CHARM:         1    1    1     0          3      0     0      0
+CHIMERA:       1    1    1     1          3      0     0      0
+CHIPS:         1    1    1     1          3      0     0      0
+CHMAP:         1    1    1     1          3      0     0      0
+CHORTLE:       1    1    1     1          3      0     0      0
+CHRONNOS:      1    1    1     1          3      0     0      0
+CNN193:        1    1    1     1          3      0     0      0
+SPOCA          -    -    -     -          -      -     -      -
+SPOCA-HEK:     -    -    -     -          -      -     -      -
+SYNCH:         1    1    1     0          3      0     0      0
+TH35:          1    1    1     0          3      0     0      0
+WWWBCS:        1    1    1     1          3      0     0      0
+
+DETACH:        1    1    0     0          2      1     0      0
+
+---------------------------------------
+
+2019-06-16T06_00_04.84Z
+NPCH (CH1), SPCH (CH2), weak, faint signatures of CH at low latitudes (CH3)
+(check solar wind data for HSS signtures) 
+
+
+
+              CH1  CH2  CH3  Fil/QS     CH(1)  CH(0) Fil(1) Fil(0)
+ACWE03:        1    1    0     0          2      1     0      0
+ACWE04:        1    1    1     0          3      0     0      0
+CATCH:         1    1    1     0          3      0     0      0
+CHARM:         1    1    0     0          2      1     0      0
+CHIMERA:       1    1    1     1          3      0     0      0
+CHIPS:         1    1    1     1          3      0     0      0
+CHMAP:         1    1    1     1          3      0     0      0
+CHORTLE:       1    1    1     1          3      0     0      0
+CHRONNOS:      1    1    1     1          3      0     0      0
+CNN193:        1    1    1     1          3      0     0      0
+SPOCA          1    1    0     0          2      1     0      0
+SPOCA-HEK:     -    -    -     -          -      -     -      -
+SYNCH:         1    1    1     1          3      0     0      0
+TH35:          1    1    0     0          2      1     0      0
+WWWBCS:        1    1    1     1          3      0     0      0
+
+DETACH:        1    1    0     0          2      1     0      0
+
+---------------------------------------
+
+
+summary (alphabetic order):
+
+              total CH  id'ed CH    total Fil   id'ed fil     other objects  id'ed other 
+ACWE03:          86       71/82.6%      71          5/7.0%         29             2/6.9% 
+ACWE04:          86       74/86.0%      71         21/29.6%        29            12/41.4%
+CATCH:           86       73/84.9%      71          0/0%           29             1/3.4%
+CHARM:           86       68/79.1%      71         15/21.1%        29             4/13.8%
+CHIMERA:         86       67/77.9%      71          0/0%           29            11/37.9%
+CHIPS:           86       74/86.0%      71         38/53.5         29            19/65.5%
+CHMAP:           86       85/98.8%      71         35/49.3%        29            24/82.6%
+CHORTLE:         86       79/91.9%      71         60/84.5%        29            29/100%
+CHRONNOS:        86       73/84.9%      71          9/12.7%        29            12/41.4%
+CNN193:          86       70/81.4%      71         25/35.2%        29            11/37.9%
+SPOCA            76       64/84.2%      70          3/4.3%         26             6/23.1%
+SPOCA-HEK:       80       70/87.5%      71         18/25.4%        27            12/44.4%
+SYNCH:           86       75/87.2%      71         44/62.0%        29            18/62.1%
+TH35:            86       66/76.7%      71         15/21.1%        29             4/13.8%
+WWWBCS:          86       84/97.7%      71         27/38.0%        29            26/89.7%
+
+DETACH:          86       72/83.7%      71         1/1.4%          29             4/13.8%
+
+
+total: 29 days/image
+       86 CH
+       71 Fil
+
+summary (most CH detections in %):
+              total CH  id'ed CH    total Fil   id'ed fil     other objects  id'ed other
+CHMAP:           86       85/98.8%      71         35/49.3%        29            24/82.6%
+WWWBCS:          86       84/97.7%      71         27/38.0%        29            26/89.7%
+CHORTLE:         86       79/91.9%      71         60/84.5%        29            29/100%
+SPOCA-HEK:       80       70/87.5%      71         18/25.4%        27            12/44.4%
+SYNCH:           86       75/87.2%      71         44/62.0%        29            18/62.1%
+ACWE04:          86       74/86.0%      71         21/29.6%        29            12/41.4%
+CHIPS:           86       74/86.0%      71         38/53.5         29            19/65.5%
+CATCH:           86       73/84.9%      71          0/0%           29             1/3.4%
+CHRONNOS:        86       73/84.9%      71          9/12.7%        29            12/41.4%
+SPOCA            76       64/84.2%      70          3/4.3%         26             6/23.1%
+ACWE03:          86       71/82.6%      71          5/7.0%         29             2/6.9%
+CNN193:          86       70/81.4%      71         25/35.2%        29            11/37.9%
+CHARM:           86       68/79.1%      71         15/21.1%        29             4/13.8%
+CHIMERA:         86       67/77.9%      71          0/0%           29            11/37.9%
+TH35:            86       66/76.7%      71         15/21.1%        29             4/13.8%
+
+
+summary (least number of filaments in %):
+
+              total CH  id'ed CH    total Fil   id'ed fil     other objects  id'ed other
+
+CATCH:           86       73/84.9%      71          0/0%           29             1/3.4%
+CHIMERA:         86       67/77.9%      71          0/0%           29            11/37.9%
+SPOCA            76       64/84.2%      70          3/4.3%         26             6/23.1%
+ACWE03:          86       71/82.6%      71          5/7.0%         29             2/6.9%
+CHRONNOS:        86       73/84.9%      71          9/12.7%        29            12/41.4%
+CHARM:           86       68/79.1%      71         15/21.1%        29             4/13.8%
+TH35:            86       66/76.7%      71         15/21.1%        29             4/13.8%
+SPOCA-HEK:       80       70/87.5%      71         18/25.4%        27            12/44.4%
+ACWE04:          86       74/86.0%      71         21/29.6%        29            12/41.4%
+CNN193:          86       70/81.4%      71         25/35.2%        29            11/37.9%
+WWWBCS:          86       84/97.7%      71         27/38.0%        29            26/89.7%
+CHMAP:           86       85/98.8%      71         35/49.3%        29            24/82.6%
+CHIPS:           86       74/86.0%      71         38/53.5         29            19/65.5%
+SYNCH:           86       75/87.2%      71         44/62.0%        29            18/62.1%
+CHORTLE:         86       79/91.9%      71         60/84.5%        29            29/100%
+
+
+summary (least number of other objects in %):
+
+              total CH  id'ed CH    total Fil   id'ed fil     other objects  id'ed other
+
+CATCH:           86       73/84.9%      71          0/0%           29             1/3.4%
+ACWE03:          86       71/82.6%      71          5/7.0%         29             2/6.9%
+CHARM:           86       68/79.1%      71         15/21.1%        29             4/13.8%
+TH35:            86       66/76.7%      71         15/21.1%        29             4/13.8%
+SPOCA            76       64/84.2%      70          3/4.3%         26             6/23.1%
+ACWE04:          86       74/86.0%      71         21/29.6%        29            12/41.4%
+CHIMERA:         86       67/77.9%      71          0/0%           29            11/37.9%
+CNN193:          86       70/81.4%      71         25/35.2%        29            11/37.9%
+CHRONNOS:        86       73/84.9%      71          9/12.7%        29            12/41.4%
+SPOCA-HEK:       80       70/87.5%      71         18/25.4%        27            12/44.4%
+SYNCH:           86       75/87.2%      71         44/62.0%        29            18/62.1%
+CHIPS:           86       74/86.0%      71         38/53.5         29            19/65.5%
+CHMAP:           86       85/98.8%      71         35/49.3%        29            24/82.6%
+WWWBCS:          86       84/97.7%      71         27/38.0%        29            26/89.7%
+CHORTLE:         86       79/91.9%      71         60/84.5%        29            29/100%
+
+
+
