@@ -20,7 +20,7 @@ from .detection import cal_spherical_info
 
 
 # r sun
-r_sun = equatorial_radius.value/1000  # unit:km
+r_sun = equatorial_radius.value/1e6  # unit:Mm
 
 def obj_deepcopy(obj):
     attributes = vars(obj)
@@ -92,7 +92,7 @@ def merge_instance(query_ins_list, config, trace_id=None):
         center_hgs_lon = center_lon/area
         center_hgs_lat = center_lat/area
         new_ins.area_ratio = area
-        new_ins.area_km2 = area*4*np.pi*(r_sun**2)
+        new_ins.area_Mm2 = area*4*np.pi*(r_sun**2)
         new_ins.center_hgs_lon = center_hgs_lon
         new_ins.center_hgs_lat = center_hgs_lat
         center_hgc = SkyCoord(center_hgs_lon, center_hgs_lat, unit='deg',
@@ -119,7 +119,7 @@ def merge_trace_from_ins(ins_list, config, trace_id=0):
             output_ins_list.append(new_ins)
     aia_intensity_list = np.zeros(shape=(len(output_ins_list)))
     area_ratio_list = np.zeros(shape=(len(output_ins_list)))
-    area_km2_list = np.zeros(shape=(len(output_ins_list)))
+    area_Mm2_list = np.zeros(shape=(len(output_ins_list)))
     boundary_hgs_y_min_list = np.zeros(shape=(len(output_ins_list)))
     boundary_hgs_y_max_list = np.zeros(shape=(len(output_ins_list)))
     center_lon_list = np.zeros(shape=(len(output_ins_list)))
@@ -129,7 +129,7 @@ def merge_trace_from_ins(ins_list, config, trace_id=0):
         ins.trace_id = trace_id
         aia_intensity_list[i] = ins.average_aia_193_intensity
         area_ratio_list[i] = ins.area_ratio
-        area_km2_list[i] = ins.area_km2
+        area_Mm2_list[i] = ins.area_Mm2
         boundary_hgs_y_min_list[i] = ins.boundary_hgs_lat_min
         boundary_hgs_y_max_list[i] = ins.boundary_hgs_lat_max
         center_lon_list[i] = ins.center_hgs_lon
@@ -145,8 +145,8 @@ def merge_trace_from_ins(ins_list, config, trace_id=0):
                       aia_193_intensity_std=np.std(aia_intensity_list),
                       average_area_ratio=np.average(area_ratio_list),
                       area_ratio_std=np.std(area_ratio_list),
-                      average_area_km2=np.average(area_km2_list),
-                      area_km2_std=np.std(area_km2_list),
+                      average_area_Mm2=np.average(area_Mm2_list),
+                      area_Mm2_std=np.std(area_Mm2_list),
                       boundary_hgs_y_min=np.min(boundary_hgs_y_min_list),
                       boundary_hgs_y_max=np.max(boundary_hgs_y_max_list),
                       boundary_hgs_y_min_err=np.std(boundary_hgs_y_min_list),

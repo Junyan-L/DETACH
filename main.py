@@ -187,12 +187,13 @@ class DETACH(object):
                                                    Quantity(y_inner, unit='pix')).transform_to(frames.HeliocentricEarthEcliptic)
                 b_r = reproject_hmi_map.data[y_inner, x_inner]
                 b_r[np.isnan(b_r)] = 0
-                ds0 = (((aia_map.scale[0]*1*u.pix).to(u.rad)*aia_map.meta['dsun_obs']/1000)**2).value  # 一个像素格面积，单位km^2
+                ds0 = (((aia_map.scale[0]*1*u.pix).to(u.rad)*aia_map.meta['dsun_obs']/1e6)**2).value  # area for a pixel, Unit: Mm^2
                 d_area = (1/np.cos(world_pos.lon.value*np.pi/180)/np.cos(world_pos.lat.value*np.pi/180))
                 d_area[np.isnan(d_area)] = 0
-                flux = np.sum(b_r*d_area*ds0)  # 磁通 单位gauss*km^2
-                flux_pos = np.sum((b_r*d_area)[b_r > 0])*ds0
-                flux_neg = np.sum((b_r*d_area)[b_r < 0])*ds0
+                # 1 G Mm^2 = 1e8 Wb; use the same units for all fluxes.
+                flux = np.sum(b_r*d_area*ds0)*1e8
+                flux_pos = np.sum((b_r*d_area)[b_r > 0])*ds0*1e8
+                flux_neg = np.sum((b_r*d_area)[b_r < 0])*ds0*1e8
                 area_pos = np.sum(d_area[b_r > 0])*ds0
                 area_neg = np.sum(d_area[b_r < 0])*ds0
                 ins.flux = flux
@@ -200,10 +201,10 @@ class DETACH(object):
                 ins.flux_negative = flux_neg
                 ins.area_positive = area_pos
                 ins.area_negative = area_neg
-                ins.B_average = flux/ins.area_km2
-                ins.B_pos_avg = flux_pos/area_pos
-                ins.B_neg_avg = flux_neg/area_neg
-                ins.B_abs_average = (flux_pos-flux_neg)/(area_pos+area_neg)
+                ins.B_average = flux/ins.area_Mm2/1e8
+                ins.B_pos_avg = flux_pos/area_pos/1e8
+                ins.B_neg_avg = flux_neg/area_neg/1e8
+                ins.B_abs_average = (flux_pos-flux_neg)/(area_pos+area_neg)/1e8
                 ins.unipolarity_degree = (ins.B_abs_average - abs(ins.B_average))/(ins.B_abs_average)
                 if flux != 0:
                     ins.flux_percent_unbalanced = abs(flux)/(flux_pos - flux_neg)
@@ -243,15 +244,15 @@ class DETACH(object):
                 trace.cls = list(c.keys())[0][0]
             # area
             basic_info = ins_list.with_entities(Instance.average_aia_193_intensity, Instance.score,
-                                                Instance.area_ratio, Instance.area_km2).all()
+                                                Instance.area_ratio, Instance.area_Mm2).all()
             basic_info = np.array(basic_info)
             trace.average_aia_193_intensity = float(np.mean(basic_info[:, 0]))
             trace.aia_193_intensity_std = float(np.std(basic_info[:, 0]))
             trace.average_score = float(np.mean(basic_info[:, 1]))
             trace.average_area_ratio = float(np.mean(basic_info[:, 2]))
             trace.area_ratio_std = float(np.std(basic_info[:, 2]))
-            trace.average_area_km2 = float(np.mean(basic_info[:, 3]))
-            trace.area_km2_std = float(np.std(basic_info[:, 3]))
+            trace.average_area_Mm2 = float(np.mean(basic_info[:, 3]))
+            trace.area_Mm2_std = float(np.std(basic_info[:, 3]))
             # boundary y
             boundary_hgs_y_info = ins_list.with_entities(Instance.boundary_hgs_lat_min,
                                                          Instance.boundary_hgs_lat_max).all()

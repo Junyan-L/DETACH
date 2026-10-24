@@ -21,10 +21,12 @@ from mmengine.config import ConfigDict
 from .database import Instance
 
 # r sun
-r_sun = equatorial_radius.value/1000  # unit:km
+r_sun = equatorial_radius.value/1e6  # unit:Mm
 
-# ignore RFA warning
+# ignore verbose sunpy radius-missing log and RFA warnings
+import logging
 import warnings
+logging.getLogger('sunpy').setLevel(logging.WARNING)
 warnings.filterwarnings("ignore", module='erfa')
 
 def remove_overlap(origin_result, overlap_threshold=0.6):
@@ -75,8 +77,20 @@ def polar_correction(origin_result, aia_map, polar_num_threshold=1e4, ty_thresho
     return origin_result
 
 def cal_spherical_info(phi_list, theta_list):  # phi->longitude  theta->latitude
-    phi_list = phi_list*np.pi/180  # 转换成弧度
-    theta_list = theta_list*np.pi/180
+    phi_list = np.asarray(phi_list, dtype=float) * np.pi / 180  # 转换成弧度
+    theta_list = np.asarray(theta_list, dtype=float) * np.pi / 180
+
+    # --- unwrap phi to handle boundary crossing the HGS ±180° line ---
+    # When the CH straddles ±180°, consecutive boundary points have
+    # phi differences of ~±2π (e.g. +179° → -179°).  Unwrap so that
+    # adjacent points differ by at most π, giving a continuous sequence.
+    for i in range(1, len(phi_list)):
+        diff = phi_list[i] - phi_list[i - 1]
+        if diff > np.pi:
+            phi_list[i] -= 2 * np.pi
+        elif diff < -np.pi:
+            phi_list[i] += 2 * np.pi
+
     shifted_phi = np.roll(phi_list, 1)
     shifted_theta = np.roll(theta_list, 1)
     delta_theta = theta_list - shifted_theta
@@ -84,7 +98,7 @@ def cal_spherical_info(phi_list, theta_list):  # phi->longitude  theta->latitude
     S0 = (phi_list[same_id] - shifted_phi[same_id])*np.sin(theta_list[same_id])
     theta0 = (phi_list[same_id] - shifted_phi[same_id])*(theta_list[same_id]*np.sin(theta_list[same_id])+np.cos(theta_list[same_id]))
     phi0 = 0.5*np.sin(theta_list[same_id])*(phi_list[same_id]**2-shifted_phi[same_id]**2)
-    
+
     S1 = -(phi_list[~same_id] - shifted_phi[~same_id]) \
         *(np.cos(theta_list[~same_id])-np.cos(shifted_theta[~same_id])) \
             /(theta_list[~same_id]-shifted_theta[~same_id])
@@ -105,7 +119,9 @@ def cal_spherical_info(phi_list, theta_list):  # phi->longitude  theta->latitude
         theta = theta/S
         phi = phi/S
         theta = theta * 180/np.pi
-        phi = phi *180/np.pi
+        phi = phi * 180 / np.pi
+        # wrap centroid phi back to [-180, 180]
+        phi = (phi + 180.0) % 360.0 - 180.0
         return np.abs(S)/(4*np.pi), phi, theta
     else:
         return 0, None, None
@@ -312,7 +328,7 @@ class SolarStructure(object):
         # area, center_lon, center_lat
         area = np.abs(area)
         current_instance.area_ratio = area
-        current_instance.area_km2 = area*4*np.pi*(r_sun**2)
+        current_instance.area_Mm2 = area*4*np.pi*(r_sun**2)
         if area != 0:
             current_instance.average_aia_193_intensity = np.mean(aia_map.data[decoded_mask>0])/aia_map.exposure_time.value
             center_hgs_lon = center_lon/area
