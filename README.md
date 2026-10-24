@@ -63,6 +63,24 @@ Plot result from database:
 python plot_result_from_db.py
 ```
 
+## Citation
+
+The DETACH algorithm in this repository was used to generate the [DETACH
+Coronal Hole Detection and Tracking Database (2010–2025)](https://doi.org/10.5281/zenodo.20461459).
+Please cite the relevant publication(s) and dataset when using the code or data.
+
+### DETACH algorithm
+
+Junyan Liu, Chenglong Shen, Yuwen Pan, et al. (2026). [DETACH: Detection and Tracking Algorithm for Coronal Holes](https://doi.org/10.1007/s11207-026-02609-1). *Solar Physics*, 301, 17.
+
+### DETACH database and data release
+
+The database and its scientific analysis are described in the following paper
+and dataset record. Please cite both when using the database:
+
+1. Junyan Liu, Chenglong Shen, Yutian Chi, et al. (2026). [Statistical Analysis of Coronal Hole Spatiotemporal Evolution, Kinematics, and Lifetimes over 1.5 Solar Cycles](https://doi.org/10.3847/1538-4357/ae9a9a). *The Astrophysical Journal*, 1009(1), 27.
+2. Junyan Liu and Chenglong Shen (2026). [DETACH Coronal Hole Detection and Tracking Database (2010–2025)](https://doi.org/10.5281/zenodo.20461459) (Version 1). Zenodo.
+
 ## Training details
 For simplicity, not all the details of the training are shown in this repository.
-For those interested, [this repository](https://github.com/Junyan-L/mmdetection/tree/detach) provides our full training code. 
+For those interested, [this repository](https://github.com/Junyan-L/mmdetection/tree/detach) provides our full training code.
